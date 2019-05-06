@@ -125,10 +125,6 @@ public class UsuarioFirebase {
                 }
             });
 
-        } else {
-
-
-
         }
 
     }
