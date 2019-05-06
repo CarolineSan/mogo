@@ -149,7 +149,7 @@ public class CadastroActivity extends AppCompatActivity {
 
                 } else {
 
-                    String excecao = "";
+                    String excecao;
                     try {
                         throw task.getException();
                     } catch ( FirebaseAuthWeakPasswordException e ) {
