@@ -56,7 +56,7 @@ public class CadastroActivity extends AppCompatActivity {
             if (!textoEmail.isEmpty()) { //Verifica e-mail
                 if (!textoSenha.isEmpty()) { //Verifica senha
 
-                    if ( verificaTipoUsuario() == "P" ) {
+                    if (verificaTipoUsuario().equals("P")) {
                         Passageiro usuario = new Passageiro();
                         usuario.setNome( textoNome );
                         usuario.setEmail( textoEmail );
