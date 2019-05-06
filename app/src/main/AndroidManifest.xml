@@ -68,7 +68,7 @@
             android:theme="@style/AppTheme.NoActionBar">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.corp.app.mogo.com.example.teste.mogo.activity.motociclista.RequisicoesActivity" />
+                android:value="com.corp.app.mogo.activity.motociclista.RequisicoesActivity" />
         </activity>
         <activity
             android:name="com.corp.app.mogo.activity.passageiro.RegulamentoActivity"
