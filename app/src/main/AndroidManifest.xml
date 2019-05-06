@@ -32,7 +32,7 @@
         -->
         <meta-data
             android:name="com.google.android.geo.API_KEY"
-            android:value="AIzaSyCC6UxOt0FX3Nq3A4DLZW9URN14tzTlwt8" />
+            android:value="AIzaSyCC6UxOt0FX3Nq3A4DLZW9URN14tzTlwt8"/>
 
         <activity
             android:name="com.corp.app.mogo.activity.MainActivity"
