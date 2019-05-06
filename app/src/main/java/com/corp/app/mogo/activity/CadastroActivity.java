@@ -112,6 +112,13 @@ public class CadastroActivity extends AppCompatActivity {
                         //Salvar dados no profile do Firebase
                         UsuarioFirebase.atualizarNomeUsuario(usuario.getNome());
 
+                        /*
+                        autenticacao.signOut();
+                        autenticacao.signInWithEmailAndPassword(
+                                usuario.getEmail(), usuario.getSenha()
+                        );
+                         */
+
 
                         startActivity(new Intent(CadastroActivity.this, FotoActivity.class));
                         finish();
