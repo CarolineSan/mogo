@@ -12,7 +12,7 @@
     android:isScrollContainer="false"
     android:keepScreenOn="false"
     app:barrierAllowsGoneWidgets="false"
-    tools:context="com.example.app.mogo.activity.MainActivity">
+    tools:context="com.corp.app.mogo.activity.MainActivity">
 
     <TextView
         android:id="@+id/textView"

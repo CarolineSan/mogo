@@ -4,6 +4,6 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.app.mogo.activity.passageiro.cadastro.FotoActivity">
+    tools:context="com.corp.app.mogo.activity.passageiro.cadastro.FotoActivity">
 
 </android.support.constraint.ConstraintLayout>

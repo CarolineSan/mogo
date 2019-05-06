@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    package="com.example.app.mogo">
+    package="com.corp.app.mogo">
 
     <!--
          The ACCESS_COARSE/FINE_LOCATION permissions are not required to use
@@ -35,7 +35,7 @@
             android:value="AIzaSyCC6UxOt0FX3Nq3A4DLZW9URN14tzTlwt8" />
 
         <activity
-            android:name="com.example.app.mogo.activity.MainActivity"
+            android:name="com.corp.app.mogo.activity.MainActivity"
             android:label="@string/app_name">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -43,51 +43,51 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name="com.example.app.mogo.activity.MapsActivity" />
+        <activity android:name="com.corp.app.mogo.activity.MapsActivity" />
         <activity
-            android:name="com.example.app.mogo.activity.LoginActivity"
+            android:name="com.corp.app.mogo.activity.LoginActivity"
             android:label="@string/label_login"
-            android:parentActivityName="com.example.app.mogo.activity.MainActivity"
+            android:parentActivityName="com.corp.app.mogo.activity.MainActivity"
             tools:targetApi="jelly_bean" />
         <activity
-            android:name="com.example.app.mogo.activity.CadastroActivity"
+            android:name="com.corp.app.mogo.activity.CadastroActivity"
             android:label="@string/label_cadastro"
-            android:parentActivityName="com.example.app.mogo.activity.MainActivity"
+            android:parentActivityName="com.corp.app.mogo.activity.MainActivity"
             tools:targetApi="jelly_bean" />
         <activity
-            android:name="com.example.app.mogo.activity.motociclista.RequisicoesActivity"
+            android:name="com.corp.app.mogo.activity.motociclista.RequisicoesActivity"
             android:label="@string/title_activity_requisicoes" />
         <activity
-            android:name="com.example.app.mogo.activity.passageiro.PassageiroActivity"
+            android:name="com.corp.app.mogo.activity.passageiro.PassageiroActivity"
             android:label="@string/title_activity_passageiro"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name="com.example.app.mogo.activity.CorridaActivity"
+            android:name="com.corp.app.mogo.activity.CorridaActivity"
             android:label="@string/title_activity_corrida"
-            android:parentActivityName="com.example.app.mogo.activity.motociclista.RequisicoesActivity"
+            android:parentActivityName="com.corp.app.mogo.activity.motociclista.RequisicoesActivity"
             android:theme="@style/AppTheme.NoActionBar">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.example.app.mogo.com.example.teste.mogo.activity.motociclista.RequisicoesActivity" />
+                android:value="com.corp.app.mogo.com.example.teste.mogo.activity.motociclista.RequisicoesActivity" />
         </activity>
         <activity
-            android:name="com.example.app.mogo.activity.passageiro.RegulamentoActivity"
+            android:name="com.corp.app.mogo.activity.passageiro.RegulamentoActivity"
             android:label="@string/title_activity_regulamento"
-            android:parentActivityName="com.example.app.mogo.activity.passageiro.PassageiroActivity" />
+            android:parentActivityName="com.corp.app.mogo.activity.passageiro.PassageiroActivity" />
         <activity
-            android:name="com.example.app.mogo.activity.passageiro.AjudaActivity"
+            android:name="com.corp.app.mogo.activity.passageiro.AjudaActivity"
             android:label="@string/title_activity_ajuda"
-            android:parentActivityName="com.example.app.mogo.activity.passageiro.PassageiroActivity" />
+            android:parentActivityName="com.corp.app.mogo.activity.passageiro.PassageiroActivity" />
         <activity
-            android:name="com.example.app.mogo.activity.passageiro.HistoricoActivity"
+            android:name="com.corp.app.mogo.activity.passageiro.HistoricoActivity"
             android:label="@string/title_activity_historico"
-            android:parentActivityName="com.example.app.mogo.activity.passageiro.PassageiroActivity" />
+            android:parentActivityName="com.corp.app.mogo.activity.passageiro.PassageiroActivity" />
         <activity
-            android:name="com.example.app.mogo.activity.passageiro.ContaActivity"
+            android:name="com.corp.app.mogo.activity.passageiro.ContaActivity"
             android:label="@string/title_activity_conta"
-            android:parentActivityName="com.example.app.mogo.activity.passageiro.PassageiroActivity" />
+            android:parentActivityName="com.corp.app.mogo.activity.passageiro.PassageiroActivity" />
         <activity
-            android:name="com.example.app.mogo.activity.passageiro.cadastro.FotoActivity"
+            android:name="com.corp.app.mogo.activity.passageiro.cadastro.FotoActivity"
             android:label="@string/title_activity_idade" />
     </application>
 

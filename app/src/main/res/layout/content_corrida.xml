@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
-    tools:context="com.example.app.mogo.activity.CorridaActivity"
+    tools:context="com.corp.app.mogo.activity.CorridaActivity"
     tools:showIn="@layout/activity_corrida">
 
 </android.support.constraint.ConstraintLayout>
