@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="none">
+        <item
+            android:id="@+id/nav_conta"
+            android:icon="@drawable/ic_menu_perfil"
+            android:title="Minha Conta" />
+        <item
+            android:id="@+id/nav_fav"
+            android:icon="@drawable/ic_menu_fav"
+            android:title="Meus Favoritos" />
+        <item
+            android:id="@+id/nav_pagamento"
+            android:icon="@drawable/ic_menu_pagamento"
+            android:title="Pagamento" />
+        <item
+            android:id="@+id/nav_corridas"
+            android:icon="@drawable/ic_menu_corridas"
+            android:title="Corridas" />
+    </group>
+
+    <item android:title="Sobre">
+        <menu>
+            <item
+                android:id="@+id/nav_faq"
+                android:icon="@drawable/ic_menu_ajuda"
+                android:title="Ajuda" />
+            <item
+                android:id="@+id/nav_termos"
+                android:icon="@drawable/ic_menu_termos"
+                android:title="Termos e Condições" />
+            <item
+                android:id="@+id/nav_out"
+                android:title="Sair" />
+        </menu>
+    </item>
+
+</menu>

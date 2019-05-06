@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">Mogo</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="label_login">Acessar conta</string>
+    <string name="label_cadastro">Junte-se a nós!</string>
+    <string name="frase_slogan">Chegue mais longe, mais rápido!</string>
+    <string name="description_logo">Logo da Mogo</string>
+    <string name="botao_entrar">Entrar</string>
+    <string name="botao_registrar">Registrar-se</string>
+    <string name="label_email">E-mail:</string>
+    <string name="label_senha">Senha:</string>
+    <string name="hint_email">Inserir e-mail válido</string>
+    <string name="hint_senha_login">Sua senha</string>
+    <string name="label_nomeCompleto">Nome Completo:</string>
+    <string name="hint_nomeCompleto">Seu nome completo</string>
+    <string name="hint_senha_cadastro">Crie uma senha</string>
+    <string name="txt_motociclista">Motociclista</string>
+    <string name="txt_passageiro">Passageiro</string>
+    <string name="title_activity_passageiro">Iniciar uma viagem</string>
+    <string name="title_activity_requisicoes">Seus chamados</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_sair">Sair</string>
+    <string name="title_activity_corrida">Inciar Corrida</string>
+    <string name="title_activity_regulamento">Termos e Condições</string>
+    <string name="title_activity_ajuda">FAQ</string>
+    <string name="title_activity_historico">Histórico de Viagens</string>
+    <string name="title_activity_conta">Minha Conta</string>
+    <string name="title_activity_idade">Foto de Perfil</string>
+</resources>
