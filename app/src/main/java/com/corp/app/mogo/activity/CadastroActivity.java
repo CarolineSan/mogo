@@ -112,19 +112,35 @@ public class CadastroActivity extends AppCompatActivity {
                         //Salvar dados no profile do Firebase
                         UsuarioFirebase.atualizarNomeUsuario(usuario.getNome());
 
-                        /*
+                        //INICIO CONTORNO BUG DISPLAY NAME FIREBASE
+                        //Logoff
                         autenticacao.signOut();
+                        //Loga novamente com o usuário cadastrado
                         autenticacao.signInWithEmailAndPassword(
                                 usuario.getEmail(), usuario.getSenha()
-                        );
-                         */
+                        ).addOnCompleteListener(new OnCompleteListener<AuthResult>() {
+                            @Override
+                            public void onComplete(@NonNull Task<AuthResult> task) {
 
+                                if (task.isSuccessful()){
 
-                        startActivity(new Intent(CadastroActivity.this, FotoActivity.class));
-                        finish();
+                                    startActivity(new Intent(CadastroActivity.this, FotoActivity.class));
+                                    finish();
 
-                        Toast.makeText(CadastroActivity.this, "Cadastro realizado com sucesso!", Toast.LENGTH_SHORT).show();
+                                    Toast.makeText(CadastroActivity.this, "Cadastro realizado com sucesso!", Toast.LENGTH_SHORT).show();
 
+                                } else {
+
+                                    try {
+                                        throw task.getException();
+                                    } catch (Exception e) {
+                                        e.printStackTrace();
+                                    }
+
+                                }
+                            }
+                        });
+                        //FIM CONTORNO BUG DISPLAY NAME FIREBASE
 
                     } catch (Exception e) {
                         e.printStackTrace();
